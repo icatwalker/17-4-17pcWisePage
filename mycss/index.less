@@ -1,16 +1,74 @@
-body{
+html,body{
+  padding:0;
+  margin:0;
+  height:100%;
+  width:100%;
 }
-div{
-  box-sizing: border-box;
+#mainBox.container{
+  width:100%;
 }
 #mainBox{
+  .row>div{padding-left:15px;}
   padding-top:20px;
   padding-bottom: 50px;
   .nav-pills>li{
-    border-radius: 5px;
+    border-radius: 6px;
     box-sizing: border-box;
   }
   .dropdown-menu>li>a:hover{
     background-color: #C9302C;
+  }
+  .left_nav>li{
+    border:2px solid #D9534F;
+
+  }
+  .nav_right{
+    //>li:nth-child(1){width:15%}
+    //>li:nth-child(2){width:40%}
+    //>li:nth-child(3){width:20%}
+    button,input{
+      vertical-align: middle;
+      height:40px;
+    }
+    input{
+      border-color: #D9534F;
+    }
+    button{
+      background-color: #D9534F;
+      color:white;
+    }
+  }
+}
+section{
+  div.list-group>a{
+    padding:0;
+  }
+  margin-top:10px;
+  ul{
+    margin:0;
+    height:40px;
+    line-height: 40px;
+    padding:0;
+    list-style: none;
+    >li{
+      float: left;
+      text-align: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+    }
+    >li:nth-child(1){width:5%}
+    >li:nth-child(2){width:10%}
+    >li:nth-child(3){width:20%}
+    >li:nth-child(4){width:5%}
+    >li:nth-child(5){width:5%}
+    >li:nth-child(6){width:5%}
+    >li:nth-child(7){width:10%}
+    >li:nth-child(8){width:5%}
+    >li:nth-child(9){width:5%}
+    >li:nth-child(10){width:10%}
+    >li:nth-child(11){width:10%}
+    >li:nth-child(12){width:10%}
   }
 }

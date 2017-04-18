@@ -3,8 +3,18 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <style>
+        #d1{
+            width:100%;
+        }
+    </style>
 </head>
 <body>
+<div id="d1">fefq</div>
 
 </body>
+<script>
+    var d1=document.getElementById("d1");
+    window.onresize=function(){console.log(d1.style.width)};
+</script>
 </html>

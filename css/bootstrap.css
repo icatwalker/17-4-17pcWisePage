@@ -1605,7 +1605,7 @@ pre code {
     width: 1600px;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1900px) {
   .container {
     width: 1846px;
   }
@@ -3586,7 +3586,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #FFA2A2;
+  background-color: #ffffff;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
